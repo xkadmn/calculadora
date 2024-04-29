@@ -1,1 +1,63 @@
-/* You can add global styles to this file, and also import other style files */
+/* Estilo personalizado para ajustar el tamaño del contenedor principal */
+.calculator-container {
+    width: 450px; /* Ancho deseado */
+    height: 100vh; /* Altura total de la ventana */
+  }
+
+  /* Estilo personalizado para dividir en dos columnas */
+  .left-column {
+    width: 40%;
+    float: left;
+    padding-right: 10px;
+  }
+
+  .right-column {
+    width: 60%;
+    float: left;
+    padding-left: 10px;
+  }
+
+  .input{
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
+
+  /* Estilo personalizado para el historial */
+  .historial ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  /* Estilo para los botones */
+
+  
+button {
+    border: 1px solid #ccc; /* Borde con color gris */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra predeterminada */
+    transition: box-shadow 0.3s; /* Transición suave */
+    margin-left: 10px;
+    margin-bottom: 5px;
+    width: 19%;
+  }
+  
+  /* Estilo para cuando se presiona el botón */
+  button:active {
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra interior */
+  }
+
+
+  .historial {
+    border: 1px solid #ccc; /* Borde con color gris */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px; /* Espacio interno */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra */
+    max-height: 230px; 
+    overflow-y: auto;
+  }
+
+#input{
+  border: 1px solid #ccc; /* Borde con color gris */
+  border-radius: 5px; /* Bordes redondeados */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra */
+  overflow-y: auto;
+}
